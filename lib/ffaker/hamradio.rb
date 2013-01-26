@@ -9,9 +9,10 @@ module Faker
     
     def suffix
       call_suffix = ""
-      rand(2).times do
+      (rand(3)+2).times do
         call_suffix << ALPHABET.rand
       end
+      call_suffix
     end
 
     PREFIXES = k %w(A AA WA WB WC WD W K KA KB KC KD KE N)
