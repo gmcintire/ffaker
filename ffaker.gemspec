@@ -4,16 +4,16 @@ Gem::Specification.new do |s|
   s.rubygems_version = '1.3.5'
 
   s.name              = 'ffaker'
-  s.version           = '1.15.0'
-  s.date              = '2012-07-03'
+  s.version           = '1.15.1'
+  s.date              = '2013-01-26'
   s.rubyforge_project = 'ffaker'
 
   s.summary     = "Faster Faker, generates dummy data."
   s.description = "Faster Faker, generates dummy data."
 
-  s.authors  = ["Emmanuel Oga"]
-  s.email    = 'EmmanuelOga@gmail.com'
-  s.homepage = 'http://github.com/emmanueloga/ffaker'
+  s.authors  = ["Graham McIntire","Emmanuel Oga"]
+  s.email    = 'gmcintire@gmail.com'
+  s.homepage = 'http://github.com/gmcintire/ffaker'
 
   s.require_paths = %w[lib]
 
@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     Rakefile
     ffaker.gemspec
     lib/ffaker.rb
+    lib/ffaker/hamradio.rb
     lib/ffaker/address.rb
     lib/ffaker/address_au.rb
     lib/ffaker/address_ca.rb

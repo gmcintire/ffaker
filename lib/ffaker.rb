@@ -1,5 +1,5 @@
 module Faker
-  VERSION = "1.15.0"
+  VERSION = "1.15.1"
 
   require 'ffaker/utils/array_utils'
   require 'ffaker/utils/module_utils'
@@ -35,6 +35,7 @@ module Faker
   autoload :Education,     'ffaker/education'
   autoload :Geolocation,   'ffaker/geolocation'
   autoload :HTMLIpsum,     'ffaker/html_ipsum'
+  autoload :Hamradio,      'ffaker/hamradio'
   autoload :HipsterIpsum,  'ffaker/hipster_ipsum'
   autoload :Internet,      'ffaker/internet'
   autoload :Job,           'ffaker/job'
